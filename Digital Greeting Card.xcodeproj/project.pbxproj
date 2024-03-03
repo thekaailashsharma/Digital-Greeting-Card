@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */; };
+		844E986C2B9480B400FFA14C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E986B2B9480B400FFA14C /* ContentView.swift */; };
+		844E986E2B9480B700FFA14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844E986D2B9480B700FFA14C /* Assets.xcassets */; };
+		844E98712B9480B700FFA14C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844E98702B9480B700FFA14C /* Preview Assets.xcassets */; };
+		844E98792B9497F700FFA14C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 844E98782B9497F700FFA14C /* Lottie */; };
+		844E987C2B94983800FFA14C /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E987B2B94983800FFA14C /* LottieAnimation.swift */; };
+		844E987E2B949AD600FFA14C /* confetti.lottie in Resources */ = {isa = PBXBuildFile; fileRef = 844E987D2B949AD600FFA14C /* confetti.lottie */; };
+		844E98812B949CFE00FFA14C /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98802B949CFE00FFA14C /* Animation.swift */; };
+		844E98842B949D7D00FFA14C /* CreateGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98832B949D7D00FFA14C /* CreateGift.swift */; };
+		844E98862B94A25200FFA14C /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98852B94A25200FFA14C /* PostCard.swift */; };
+		844E98882B94A2BE00FFA14C /* SentConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98872B94A2BE00FFA14C /* SentConfirm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844E98662B9480B400FFA14C /* Digital Greeting Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Greeting Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Greeting_CardApp.swift; sourceTree = "<group>"; };
+		844E986B2B9480B400FFA14C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		844E986D2B9480B700FFA14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844E98702B9480B700FFA14C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		844E987B2B94983800FFA14C /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
+		844E987D2B949AD600FFA14C /* confetti.lottie */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.lottie; sourceTree = "<group>"; };
+		844E98802B949CFE00FFA14C /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		844E98832B949D7D00FFA14C /* CreateGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGift.swift; sourceTree = "<group>"; };
+		844E98852B94A25200FFA14C /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		844E98872B94A2BE00FFA14C /* SentConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentConfirm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844E98632B9480B400FFA14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844E98792B9497F700FFA14C /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844E985D2B9480B400FFA14C = {
+			isa = PBXGroup;
+			children = (
+				844E98682B9480B400FFA14C /* Digital Greeting Card */,
+				844E98672B9480B400FFA14C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844E98672B9480B400FFA14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844E98662B9480B400FFA14C /* Digital Greeting Card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844E98682B9480B400FFA14C /* Digital Greeting Card */ = {
+			isa = PBXGroup;
+			children = (
+				844E98822B949D4600FFA14C /* Presentation */,
+				844E987F2B949CE400FFA14C /* Models */,
+				844E987A2B94982800FFA14C /* Lottie */,
+				844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */,
+				844E986B2B9480B400FFA14C /* ContentView.swift */,
+				844E987D2B949AD600FFA14C /* confetti.lottie */,
+				844E986D2B9480B700FFA14C /* Assets.xcassets */,
+				844E986F2B9480B700FFA14C /* Preview Content */,
+			);
+			path = "Digital Greeting Card";
+			sourceTree = "<group>";
+		};
+		844E986F2B9480B700FFA14C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				844E98702B9480B700FFA14C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		844E987A2B94982800FFA14C /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				844E987B2B94983800FFA14C /* LottieAnimation.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		844E987F2B949CE400FFA14C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				844E98802B949CFE00FFA14C /* Animation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		844E98822B949D4600FFA14C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				844E98832B949D7D00FFA14C /* CreateGift.swift */,
+				844E98852B94A25200FFA14C /* PostCard.swift */,
+				844E98872B94A2BE00FFA14C /* SentConfirm.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844E98652B9480B400FFA14C /* Digital Greeting Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844E98742B9480B700FFA14C /* Build configuration list for PBXNativeTarget "Digital Greeting Card" */;
+			buildPhases = (
+				844E98622B9480B400FFA14C /* Sources */,
+				844E98632B9480B400FFA14C /* Frameworks */,
+				844E98642B9480B400FFA14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digital Greeting Card";
+			packageProductDependencies = (
+				844E98782B9497F700FFA14C /* Lottie */,
+			);
+			productName = "Digital Greeting Card";
+			productReference = 844E98662B9480B400FFA14C /* Digital Greeting Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844E985E2B9480B400FFA14C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					844E98652B9480B400FFA14C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 844E98612B9480B400FFA14C /* Build configuration list for PBXProject "Digital Greeting Card" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844E985D2B9480B400FFA14C;
+			packageReferences = (
+				844E98772B9497F700FFA14C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 844E98672B9480B400FFA14C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844E98652B9480B400FFA14C /* Digital Greeting Card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844E98642B9480B400FFA14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844E98712B9480B700FFA14C /* Preview Assets.xcassets in Resources */,
+				844E987E2B949AD600FFA14C /* confetti.lottie in Resources */,
+				844E986E2B9480B700FFA14C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844E98622B9480B400FFA14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844E986C2B9480B400FFA14C /* ContentView.swift in Sources */,
+				844E98862B94A25200FFA14C /* PostCard.swift in Sources */,
+				844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */,
+				844E987C2B94983800FFA14C /* LottieAnimation.swift in Sources */,
+				844E98842B949D7D00FFA14C /* CreateGift.swift in Sources */,
+				844E98882B94A2BE00FFA14C /* SentConfirm.swift in Sources */,
+				844E98812B949CFE00FFA14C /* Animation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		844E98722B9480B700FFA14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844E98732B9480B700FFA14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844E98752B9480B700FFA14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Digital Greeting Card/Preview Content\"";
+				DEVELOPMENT_TEAM = X9QZ4KQXLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digital-Greeting-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844E98762B9480B700FFA14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Digital Greeting Card/Preview Content\"";
+				DEVELOPMENT_TEAM = X9QZ4KQXLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digital-Greeting-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844E98612B9480B400FFA14C /* Build configuration list for PBXProject "Digital Greeting Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844E98722B9480B700FFA14C /* Debug */,
+				844E98732B9480B700FFA14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844E98742B9480B700FFA14C /* Build configuration list for PBXNativeTarget "Digital Greeting Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844E98752B9480B700FFA14C /* Debug */,
+				844E98762B9480B700FFA14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		844E98772B9497F700FFA14C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		844E98782B9497F700FFA14C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 844E98772B9497F700FFA14C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 844E985E2B9480B400FFA14C /* Project object */;
+}
