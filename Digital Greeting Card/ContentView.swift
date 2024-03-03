@@ -30,10 +30,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             
-            ScrollView {
+//            ScrollView {
                 ZStack {
                     
-                    CreateGift(
+                    CreateWish(
                         showMessage: $showMessage,
                         isRotated: $isRotated,
                         isEnvelopeOpen: $isEnvelopeOpen,
@@ -75,7 +75,23 @@ struct ContentView: View {
                     
                 }
                 
+//            }
+            .background(Color("bg"))
+            .navigationBarTitle("Create Your Wish")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Image(systemName: "arrowshape.turn.up.backward")
+                        .renderingMode(.template)
+                        .resizable()
+                        .foregroundStyle(Color("navTitle").gradient)
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Text("Share")
+                        .foregroundColor(Color("orange"))
+                }
             }
+            .navigationBarTitleDisplayMode(.inline)
 
             
         }
@@ -111,10 +127,10 @@ struct ContentView: View {
                                                             isGiftCardVisibe.toggle()
                                                             
                                                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                                                                withAnimation(.easeInOut(duration: 0.5)) {
+                                                                withAnimation(.linear(duration: 1.5)) {
                                                                     isHandComing.toggle()
                                                                     
-                                                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                                                                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                                                                         withAnimation(.easeInOut(duration: 1)) {
                                                                             isHandPicking.toggle()
                                                                             

@@ -22,6 +22,7 @@
 		844E988D2B94B30300FFA14C /* InitNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E988C2B94B30300FFA14C /* InitNavigation.swift */; };
 		845FCB982B94E8410039493B /* CalendarDragDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FCB972B94E8410039493B /* CalendarDragDate.swift */; };
 		845FCB9A2B94EDF50039493B /* PeelEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FCB992B94EDF50039493B /* PeelEffect.swift */; };
+		845FCB9D2B94FF100039493B /* PolyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 845FCB9C2B94FF100039493B /* PolyKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844E98792B9497F700FFA14C /* Lottie in Frameworks */,
+				845FCB9D2B94FF100039493B /* PolyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,7 @@
 			name = "Digital Greeting Card";
 			packageProductDependencies = (
 				844E98782B9497F700FFA14C /* Lottie */,
+				845FCB9C2B94FF100039493B /* PolyKit */,
 			);
 			productName = "Digital Greeting Card";
 			productReference = 844E98662B9480B400FFA14C /* Digital Greeting Card.app */;
@@ -180,6 +183,7 @@
 			mainGroup = 844E985D2B9480B400FFA14C;
 			packageReferences = (
 				844E98772B9497F700FFA14C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				845FCB9B2B94FF100039493B /* XCRemoteSwiftPackageReference "PolyKit" */,
 			);
 			productRefGroup = 844E98672B9480B400FFA14C /* Products */;
 			projectDirPath = "";
@@ -429,6 +433,14 @@
 				kind = branch;
 			};
 		};
+		845FCB9B2B94FF100039493B /* XCRemoteSwiftPackageReference "PolyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heestand-xyz/PolyKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -436,6 +448,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 844E98772B9497F700FFA14C /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		845FCB9C2B94FF100039493B /* PolyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 845FCB9B2B94FF100039493B /* XCRemoteSwiftPackageReference "PolyKit" */;
+			productName = PolyKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
