@@ -20,6 +20,8 @@
 		844E98882B94A2BE00FFA14C /* SentConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98872B94A2BE00FFA14C /* SentConfirm.swift */; };
 		844E988A2B94AD1800FFA14C /* CreateWish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98892B94AD1800FFA14C /* CreateWish.swift */; };
 		844E988D2B94B30300FFA14C /* InitNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E988C2B94B30300FFA14C /* InitNavigation.swift */; };
+		845FCB982B94E8410039493B /* CalendarDragDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FCB972B94E8410039493B /* CalendarDragDate.swift */; };
+		845FCB9A2B94EDF50039493B /* PeelEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FCB992B94EDF50039493B /* PeelEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		844E98872B94A2BE00FFA14C /* SentConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentConfirm.swift; sourceTree = "<group>"; };
 		844E98892B94AD1800FFA14C /* CreateWish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWish.swift; sourceTree = "<group>"; };
 		844E988C2B94B30300FFA14C /* InitNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitNavigation.swift; sourceTree = "<group>"; };
+		845FCB972B94E8410039493B /* CalendarDragDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDragDate.swift; sourceTree = "<group>"; };
+		845FCB992B94EDF50039493B /* PeelEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeelEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				844E987A2B94982800FFA14C /* Lottie */,
 				844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */,
 				844E986B2B9480B400FFA14C /* ContentView.swift */,
+				845FCB992B94EDF50039493B /* PeelEffect.swift */,
+				845FCB972B94E8410039493B /* CalendarDragDate.swift */,
 				844E987D2B949AD600FFA14C /* confetti.lottie */,
 				844E986D2B9480B700FFA14C /* Assets.xcassets */,
 				844E986F2B9480B700FFA14C /* Preview Content */,
@@ -203,10 +209,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				844E986C2B9480B400FFA14C /* ContentView.swift in Sources */,
+				845FCB9A2B94EDF50039493B /* PeelEffect.swift in Sources */,
 				844E98862B94A25200FFA14C /* PostCard.swift in Sources */,
 				844E988A2B94AD1800FFA14C /* CreateWish.swift in Sources */,
 				844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */,
 				844E987C2B94983800FFA14C /* LottieAnimation.swift in Sources */,
+				845FCB982B94E8410039493B /* CalendarDragDate.swift in Sources */,
 				844E98842B949D7D00FFA14C /* CreateGift.swift in Sources */,
 				844E98882B94A2BE00FFA14C /* SentConfirm.swift in Sources */,
 				844E988D2B94B30300FFA14C /* InitNavigation.swift in Sources */,
