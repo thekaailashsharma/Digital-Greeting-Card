@@ -55,3 +55,9 @@ struct CreateGift: View {
     }
 }
 
+struct CreateGift_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+

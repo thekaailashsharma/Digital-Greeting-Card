@@ -30,4 +30,10 @@ struct SentConfirm: View {
     }
 }
 
+struct SentConfirm_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
 

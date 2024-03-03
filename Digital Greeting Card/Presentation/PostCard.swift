@@ -31,13 +31,19 @@ struct PostCard: View {
                     .resizable()
                     .font(Font.system(size: 120, weight: .ultraLight))
                     .frame(width: 300, height: 250)
-                    .offset(x: isHandComing ? 120 : 300, y: -100)
+                    .offset(x: isHandComing ? 80 : 300, y: -100)
                     .foregroundStyle(Color(uiColor: blue).gradient)
                     .animation(.easeInOut(duration: 1), value: isHandComing)
                 
             }
             Spacer()
         }
+    }
+}
+
+struct PostCard_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
 

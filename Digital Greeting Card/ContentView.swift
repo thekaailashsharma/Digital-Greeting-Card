@@ -21,49 +21,62 @@ struct ContentView: View {
     @State private var isSent = false
     
     var blue = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
+    let navBarAppearence = UINavigationBarAppearance()
+    
+    init() {
+        initNavigation(navBarAppearence: navBarAppearence)
+    }
     
     var body: some View {
-        
-        ZStack {
-            CreateGift(
-                showMessage: $showMessage,
-                isRotated: $isRotated,
-                isEnvelopeOpen: $isEnvelopeOpen,
-                isEnvelopeClosed: $isEnvelopeClosed,
-                isEnvelopeMoving: $isEnvelopeMoving,
-                isEnvelopeHidden: $isEnvelopeHidden, play: {
-                    play()
-                })
-            .padding()
+        NavigationView {
             
-           PostCard(
-            isGiftCardVisibe: $isGiftCardVisibe,
-            isHandComing: $isHandComing)
-            .offset(x: isHandPicking ? 3000: 0)
-            .opacity(isHandPicking ? 0 : 1)
-            
-            SentConfirm(
-                isHandPicking: $isHandPicking,
-                isSent: $isSent
-            )
-            .scaleEffect(isSent ? 1.2: 0.3)
-            .opacity(isSent ? 1 : 0)
-            
-           
-               
-            MyLottieAnimation(url: Bundle.main.url(
-                forResource: "confetti",
-                withExtension: "lottie")!,loopMode: .repeat(2)
-            )
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .scaleEffect(isSent ? 2.0 : 0.3)
-            .opacity(isSent ? 1 : 0)
-            
-            
-            
-            
+            ScrollView {
+                ZStack {
+                    
+                    CreateGift(
+                        showMessage: $showMessage,
+                        isRotated: $isRotated,
+                        isEnvelopeOpen: $isEnvelopeOpen,
+                        isEnvelopeClosed: $isEnvelopeClosed,
+                        isEnvelopeMoving: $isEnvelopeMoving,
+                        isEnvelopeHidden: $isEnvelopeHidden, play: {
+                            play()
+                        })
+                    .padding()
+                    
+                    PostCard(
+                        isGiftCardVisibe: $isGiftCardVisibe,
+                        isHandComing: $isHandComing)
+                    .offset(x: isHandPicking ? 3000: 0)
+                    .opacity(isHandPicking ? 0 : 1)
+                    
+                    SentConfirm(
+                        isHandPicking: $isHandPicking,
+                        isSent: $isSent
+                    )
+                    .scaleEffect(isSent ? 1.2: 0.3)
+                    .opacity(isSent ? 1 : 0)
+                    
+                    
+                    
+                    MyLottieAnimation(url: Bundle.main.url(
+                        forResource: "confetti",
+                        withExtension: "lottie")!,loopMode: .repeat(2)
+                    )
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .scaleEffect(isSent ? 2.0 : 0.3)
+                    .opacity(isSent ? 1 : 0)
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                }
                 
-            
+            }
+
             
         }
         
@@ -138,7 +151,7 @@ struct ContentView: View {
             }
         }
     }
-
+    
     
 }
 
