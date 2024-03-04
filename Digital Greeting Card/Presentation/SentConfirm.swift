@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SentConfirm: View {
     
-    @Binding var isHandPicking : Bool
     @Binding var isSent : Bool
     var blue = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
     

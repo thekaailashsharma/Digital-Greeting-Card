@@ -23,6 +23,7 @@
 		845FCB982B94E8410039493B /* CalendarDragDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FCB972B94E8410039493B /* CalendarDragDate.swift */; };
 		845FCB9A2B94EDF50039493B /* PeelEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FCB992B94EDF50039493B /* PeelEffect.swift */; };
 		845FCB9D2B94FF100039493B /* PolyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 845FCB9C2B94FF100039493B /* PolyKit */; };
+		84997FD12B965C79001C2C36 /* SlackAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84997FD02B965C79001C2C36 /* SlackAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		844E988C2B94B30300FFA14C /* InitNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitNavigation.swift; sourceTree = "<group>"; };
 		845FCB972B94E8410039493B /* CalendarDragDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDragDate.swift; sourceTree = "<group>"; };
 		845FCB992B94EDF50039493B /* PeelEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeelEffect.swift; sourceTree = "<group>"; };
+		84997FD02B965C79001C2C36 /* SlackAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		844E98682B9480B400FFA14C /* Digital Greeting Card */ = {
 			isa = PBXGroup;
 			children = (
+				84997FCF2B965C63001C2C36 /* slack-anim */,
 				844E988B2B94B2F300FFA14C /* Utils */,
 				844E98822B949D4600FFA14C /* Presentation */,
 				844E987F2B949CE400FFA14C /* Models */,
@@ -131,6 +134,14 @@
 				844E988C2B94B30300FFA14C /* InitNavigation.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		84997FCF2B965C63001C2C36 /* slack-anim */ = {
+			isa = PBXGroup;
+			children = (
+				84997FD02B965C79001C2C36 /* SlackAnimation.swift */,
+			);
+			path = "slack-anim";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844E986C2B9480B400FFA14C /* ContentView.swift in Sources */,
+				84997FD12B965C79001C2C36 /* SlackAnimation.swift in Sources */,
 				845FCB9A2B94EDF50039493B /* PeelEffect.swift in Sources */,
 				844E98862B94A25200FFA14C /* PostCard.swift in Sources */,
 				844E988A2B94AD1800FFA14C /* CreateWish.swift in Sources */,

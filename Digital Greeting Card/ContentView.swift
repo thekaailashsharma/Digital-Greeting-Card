@@ -24,7 +24,7 @@ struct ContentView: View {
     let navBarAppearence = UINavigationBarAppearance()
     
     init() {
-        initNavigation(navBarAppearence: navBarAppearence)
+//        initNavigation(navBarAppearence: navBarAppearence)
     }
     
     var body: some View {
@@ -51,7 +51,6 @@ struct ContentView: View {
                     .opacity(isHandPicking ? 0 : 1)
                     
                     SentConfirm(
-                        isHandPicking: $isHandPicking,
                         isSent: $isSent
                     )
                     .scaleEffect(isSent ? 1.2: 0.3)

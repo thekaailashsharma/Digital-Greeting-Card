@@ -8,15 +8,15 @@
 import Foundation
 import SwiftUI
 
-func initNavigation(navBarAppearence: UINavigationBarAppearance) {
+func initNavigation(navBarAppearence: UINavigationBarAppearance, bgColor: UIColor, fgColor: UIColor) {
     navBarAppearence.configureWithOpaqueBackground()
-    navBarAppearence.backgroundColor = UIColor.init(Color("bg"))
+    navBarAppearence.backgroundColor = UIColor.init(Color(uiColor: bgColor))
     
     navBarAppearence.titleTextAttributes = [
-        .foregroundColor: UIColor.init(Color("navTitle"))
+        .foregroundColor: UIColor.init(Color(uiColor: fgColor))
     ]
     navBarAppearence.largeTitleTextAttributes = [
-        .foregroundColor:UIColor.init(Color("navTitle"))
+        .foregroundColor : UIColor.init(Color(uiColor: fgColor))
     ]
         
     UINavigationBar.appearance().standardAppearance = navBarAppearence
