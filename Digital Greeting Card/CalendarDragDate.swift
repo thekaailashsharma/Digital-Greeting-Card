@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct CalendarDragDate: View {
+    
+    @State var offsetX: CGFloat = 0
+    
     var body: some View {
-        VStack {
+        ZStack {
             ForEach(1...4, id: \.self) { value in
                 PeelEffect(date: value) {
                     CalendarView("March", value.description)
+                        .rotation3DEffect(
+                            .degrees(0),
+                            axis: (x: 40, y: 5, z: 0))
                 }
             }
         }
@@ -63,7 +69,7 @@ func CalendarView(_ month: String, _ date: String) -> some View {
                 Text(date)
                     .font(.system(size: 70, weight: .bold))
                     .fontWeight(.bold)
-                    .foregroundStyle(.white.gradient)
+                    .foregroundStyle(.black.gradient)
                 
                 Spacer()
                 
