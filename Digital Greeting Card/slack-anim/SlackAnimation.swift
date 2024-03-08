@@ -49,7 +49,6 @@ struct SlackAnimation: View {
     
     var body: some View {
         
-        NavigationView {
             ZStack {
                 Color(uiColor: background)
                     .ignoresSafeArea()
@@ -165,7 +164,7 @@ struct SlackAnimation: View {
             .navigationBarHidden(isSent)
             
         }
-    }
+    
     
 }
 

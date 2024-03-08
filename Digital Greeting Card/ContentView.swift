@@ -28,7 +28,7 @@ struct ContentView: View {
     }
     
     var body: some View {
-        NavigationView {
+       
             
 //            ScrollView {
                 ZStack {
@@ -93,7 +93,7 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
 
             
-        }
+        
         
         
     }

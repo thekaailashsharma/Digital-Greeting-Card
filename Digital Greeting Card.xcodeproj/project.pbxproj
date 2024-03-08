@@ -10,6 +10,7 @@
 		4A7818622B9A2D8F0036B007 /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7818612B9A2D8F0036B007 /* WatchApp.swift */; };
 		4A9C75A12B9ADB9D00875F78 /* Southam.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C75A02B9ADB9D00875F78 /* Southam.otf */; };
 		4ADA10F52B9ABAA60054D43C /* ReceiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */; };
+		4AF637EC2B9B5A1300FF12AA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF637EB2B9B5A1300FF12AA /* HomeScreen.swift */; };
 		844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */; };
 		844E986C2B9480B400FFA14C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E986B2B9480B400FFA14C /* ContentView.swift */; };
 		844E986E2B9480B700FFA14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844E986D2B9480B700FFA14C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		4A9C75A02B9ADB9D00875F78 /* Southam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Southam.otf; sourceTree = "<group>"; };
 		4A9C75A22B9ADBF500875F78 /* Digital-Greeting-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Digital-Greeting-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveCard.swift; sourceTree = "<group>"; };
+		4AF637EB2B9B5A1300FF12AA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		844E98662B9480B400FFA14C /* Digital Greeting Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Greeting Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Greeting_CardApp.swift; sourceTree = "<group>"; };
 		844E986B2B9480B400FFA14C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */,
 				844E986B2B9480B400FFA14C /* ContentView.swift */,
 				845FCB992B94EDF50039493B /* PeelEffect.swift */,
+				4AF637EB2B9B5A1300FF12AA /* HomeScreen.swift */,
 				845FCB972B94E8410039493B /* CalendarDragDate.swift */,
 				844E987D2B949AD600FFA14C /* confetti.lottie */,
 				844E986D2B9480B700FFA14C /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 				84997FD12B965C79001C2C36 /* SlackAnimation.swift in Sources */,
 				845FCB9A2B94EDF50039493B /* PeelEffect.swift in Sources */,
 				4A7818622B9A2D8F0036B007 /* WatchApp.swift in Sources */,
+				4AF637EC2B9B5A1300FF12AA /* HomeScreen.swift in Sources */,
 				844E98862B94A25200FFA14C /* PostCard.swift in Sources */,
 				844E988A2B94AD1800FFA14C /* CreateWish.swift in Sources */,
 				844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */,
