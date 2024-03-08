@@ -8,6 +8,15 @@
         "branch" : "master",
         "revision" : "41dfe7b0d8c3349adc7a5a03a1c6aaac8746433d"
       }
+    },
+    {
+      "identity" : "polykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/heestand-xyz/PolyKit",
+      "state" : {
+        "revision" : "43bf55ae126d9d5b303ac7d28d73331a6514dfdc",
+        "version" : "2.1.0"
+      }
     }
   ],
   "version" : 2

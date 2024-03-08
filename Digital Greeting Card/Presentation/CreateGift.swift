@@ -25,7 +25,7 @@ struct CreateGift: View {
             if !isEnvelopeHidden {
                 Image("gree")
                     .resizable()
-                    .frame(width: 300, height: 500)
+                    .frame(width: UIScreen.main.bounds.size.width - 50, height: 500)
                     .scaleEffect(showMessage ? 0.5 : 1)
                     .rotationEffect(.degrees(isRotated ? 90: 0))
                     .offset(y: isEnvelopeOpen ? 400 : 0)
