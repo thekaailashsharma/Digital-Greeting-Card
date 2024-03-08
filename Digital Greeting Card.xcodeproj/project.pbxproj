@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A7818622B9A2D8F0036B007 /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7818612B9A2D8F0036B007 /* WatchApp.swift */; };
+		4A9C75A12B9ADB9D00875F78 /* Southam.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C75A02B9ADB9D00875F78 /* Southam.otf */; };
+		4ADA10F52B9ABAA60054D43C /* ReceiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */; };
 		844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */; };
 		844E986C2B9480B400FFA14C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E986B2B9480B400FFA14C /* ContentView.swift */; };
 		844E986E2B9480B700FFA14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844E986D2B9480B700FFA14C /* Assets.xcassets */; };
@@ -28,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A7818612B9A2D8F0036B007 /* WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
+		4A9C75A02B9ADB9D00875F78 /* Southam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Southam.otf; sourceTree = "<group>"; };
+		4A9C75A22B9ADBF500875F78 /* Digital-Greeting-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Digital-Greeting-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveCard.swift; sourceTree = "<group>"; };
 		844E98662B9480B400FFA14C /* Digital Greeting Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Greeting Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Greeting_CardApp.swift; sourceTree = "<group>"; };
 		844E986B2B9480B400FFA14C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,9 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A7818602B9A2D750036B007 /* watch-app */ = {
+			isa = PBXGroup;
+			children = (
+				4A7818612B9A2D8F0036B007 /* WatchApp.swift */,
+			);
+			path = "watch-app";
+			sourceTree = "<group>";
+		};
 		844E985D2B9480B400FFA14C = {
 			isa = PBXGroup;
 			children = (
+				4A9C75A02B9ADB9D00875F78 /* Southam.otf */,
 				844E98682B9480B400FFA14C /* Digital Greeting Card */,
 				844E98672B9480B400FFA14C /* Products */,
 			);
@@ -79,6 +95,8 @@
 		844E98682B9480B400FFA14C /* Digital Greeting Card */ = {
 			isa = PBXGroup;
 			children = (
+				4A9C75A22B9ADBF500875F78 /* Digital-Greeting-Card-Info.plist */,
+				4A7818602B9A2D750036B007 /* watch-app */,
 				846522732B984ED800B2E804 /* apple */,
 				84997FCF2B965C63001C2C36 /* slack-anim */,
 				844E988B2B94B2F300FFA14C /* Utils */,
@@ -127,6 +145,7 @@
 				844E98852B94A25200FFA14C /* PostCard.swift */,
 				844E98872B94A2BE00FFA14C /* SentConfirm.swift */,
 				844E98892B94AD1800FFA14C /* CreateWish.swift */,
+				4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -222,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844E98712B9480B700FFA14C /* Preview Assets.xcassets in Resources */,
+				4A9C75A12B9ADB9D00875F78 /* Southam.otf in Resources */,
 				844E987E2B949AD600FFA14C /* confetti.lottie in Resources */,
 				844E986E2B9480B700FFA14C /* Assets.xcassets in Resources */,
 			);
@@ -237,12 +257,14 @@
 				844E986C2B9480B400FFA14C /* ContentView.swift in Sources */,
 				84997FD12B965C79001C2C36 /* SlackAnimation.swift in Sources */,
 				845FCB9A2B94EDF50039493B /* PeelEffect.swift in Sources */,
+				4A7818622B9A2D8F0036B007 /* WatchApp.swift in Sources */,
 				844E98862B94A25200FFA14C /* PostCard.swift in Sources */,
 				844E988A2B94AD1800FFA14C /* CreateWish.swift in Sources */,
 				844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */,
 				844E987C2B94983800FFA14C /* LottieAnimation.swift in Sources */,
 				845FCB982B94E8410039493B /* CalendarDragDate.swift in Sources */,
 				844E98842B949D7D00FFA14C /* CreateGift.swift in Sources */,
+				4ADA10F52B9ABAA60054D43C /* ReceiveCard.swift in Sources */,
 				844E98882B94A2BE00FFA14C /* SentConfirm.swift in Sources */,
 				846522752B984EEE00B2E804 /* AppleLogo.swift in Sources */,
 				844E988D2B94B30300FFA14C /* InitNavigation.swift in Sources */,
@@ -378,6 +400,7 @@
 				DEVELOPMENT_TEAM = X9QZ4KQXLR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digital-Greeting-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -407,6 +430,7 @@
 				DEVELOPMENT_TEAM = X9QZ4KQXLR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digital-Greeting-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

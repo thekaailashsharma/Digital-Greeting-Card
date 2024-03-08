@@ -11,7 +11,10 @@ import SwiftUI
 struct Digital_Greeting_CardApp: App {
     var body: some Scene {
         WindowGroup {
-            AppleLogo()
+            ContentView()
+//            NavigationView {
+//                ReceiveCard(presenter: NVFlipCardPresenter())
+//            }
         }
     }
 }
