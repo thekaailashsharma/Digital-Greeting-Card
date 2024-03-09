@@ -84,6 +84,21 @@ struct HomeScreen: View {
                         .padding()
                         
                         Spacer()
+                        
+                        NavigationLink {
+                            PhaseAnimator()
+                        } label: {
+                            HStack {
+                                Text("Phase Animator")
+                                    .foregroundStyle(.white)
+                                    .font(.headline)
+                                    .fontWeight(.semibold)
+                                Spacer()
+                            }
+                        }
+                        .padding()
+                        
+                        Spacer()
                     }
                     .frame(maxWidth: .infinity)
                     .padding()
