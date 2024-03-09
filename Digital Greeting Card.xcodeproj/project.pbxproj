@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		4A7818622B9A2D8F0036B007 /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7818612B9A2D8F0036B007 /* WatchApp.swift */; };
 		4A9C75A12B9ADB9D00875F78 /* Southam.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C75A02B9ADB9D00875F78 /* Southam.otf */; };
+		4AB4B7112B9CA0DE00B626E3 /* PhaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4B7102B9CA0DE00B626E3 /* PhaseAnimator.swift */; };
+		4AB4B7132B9CC31B00B626E3 /* roashce.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4B7122B9CC31B00B626E3 /* roashce.otf */; };
+		4AB4B7152B9CC39F00B626E3 /* mitchela.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4B7142B9CC39F00B626E3 /* mitchela.ttf */; };
+		4AB4B7172B9CC5B800B626E3 /* noctis.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4B7162B9CC5B800B626E3 /* noctis.otf */; };
+		4AB4B7192B9CC69A00B626E3 /* longline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4B7182B9CC69A00B626E3 /* longline.ttf */; };
+		4AB4B71B2B9CC7EC00B626E3 /* LoveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4B71A2B9CC7EC00B626E3 /* LoveShape.swift */; };
 		4ADA10F52B9ABAA60054D43C /* ReceiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */; };
 		4AF637EC2B9B5A1300FF12AA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF637EB2B9B5A1300FF12AA /* HomeScreen.swift */; };
 		844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */; };
@@ -35,6 +41,12 @@
 		4A7818612B9A2D8F0036B007 /* WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
 		4A9C75A02B9ADB9D00875F78 /* Southam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Southam.otf; sourceTree = "<group>"; };
 		4A9C75A22B9ADBF500875F78 /* Digital-Greeting-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Digital-Greeting-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4AB4B7102B9CA0DE00B626E3 /* PhaseAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimator.swift; sourceTree = "<group>"; };
+		4AB4B7122B9CC31B00B626E3 /* roashce.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = roashce.otf; sourceTree = "<group>"; };
+		4AB4B7142B9CC39F00B626E3 /* mitchela.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mitchela.ttf; sourceTree = "<group>"; };
+		4AB4B7162B9CC5B800B626E3 /* noctis.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = noctis.otf; sourceTree = "<group>"; };
+		4AB4B7182B9CC69A00B626E3 /* longline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = longline.ttf; sourceTree = "<group>"; };
+		4AB4B71A2B9CC7EC00B626E3 /* LoveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveShape.swift; sourceTree = "<group>"; };
 		4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveCard.swift; sourceTree = "<group>"; };
 		4AF637EB2B9B5A1300FF12AA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		844E98662B9480B400FFA14C /* Digital Greeting Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Greeting Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,10 +89,23 @@
 			path = "watch-app";
 			sourceTree = "<group>";
 		};
+		4AB4B70F2B9CA0C700B626E3 /* Phase Animator */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4B7102B9CA0DE00B626E3 /* PhaseAnimator.swift */,
+				4AB4B71A2B9CC7EC00B626E3 /* LoveShape.swift */,
+			);
+			path = "Phase Animator";
+			sourceTree = "<group>";
+		};
 		844E985D2B9480B400FFA14C = {
 			isa = PBXGroup;
 			children = (
 				4A9C75A02B9ADB9D00875F78 /* Southam.otf */,
+				4AB4B7122B9CC31B00B626E3 /* roashce.otf */,
+				4AB4B7142B9CC39F00B626E3 /* mitchela.ttf */,
+				4AB4B7162B9CC5B800B626E3 /* noctis.otf */,
+				4AB4B7182B9CC69A00B626E3 /* longline.ttf */,
 				844E98682B9480B400FFA14C /* Digital Greeting Card */,
 				844E98672B9480B400FFA14C /* Products */,
 			);
@@ -97,6 +122,7 @@
 		844E98682B9480B400FFA14C /* Digital Greeting Card */ = {
 			isa = PBXGroup;
 			children = (
+				4AB4B70F2B9CA0C700B626E3 /* Phase Animator */,
 				4A9C75A22B9ADBF500875F78 /* Digital-Greeting-Card-Info.plist */,
 				4A7818602B9A2D750036B007 /* watch-app */,
 				846522732B984ED800B2E804 /* apple */,
@@ -243,10 +269,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB4B7192B9CC69A00B626E3 /* longline.ttf in Resources */,
 				844E98712B9480B700FFA14C /* Preview Assets.xcassets in Resources */,
 				4A9C75A12B9ADB9D00875F78 /* Southam.otf in Resources */,
 				844E987E2B949AD600FFA14C /* confetti.lottie in Resources */,
+				4AB4B7172B9CC5B800B626E3 /* noctis.otf in Resources */,
 				844E986E2B9480B700FFA14C /* Assets.xcassets in Resources */,
+				4AB4B7132B9CC31B00B626E3 /* roashce.otf in Resources */,
+				4AB4B7152B9CC39F00B626E3 /* mitchela.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +294,7 @@
 				4AF637EC2B9B5A1300FF12AA /* HomeScreen.swift in Sources */,
 				844E98862B94A25200FFA14C /* PostCard.swift in Sources */,
 				844E988A2B94AD1800FFA14C /* CreateWish.swift in Sources */,
+				4AB4B7112B9CA0DE00B626E3 /* PhaseAnimator.swift in Sources */,
 				844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */,
 				844E987C2B94983800FFA14C /* LottieAnimation.swift in Sources */,
 				845FCB982B94E8410039493B /* CalendarDragDate.swift in Sources */,
@@ -271,6 +302,7 @@
 				4ADA10F52B9ABAA60054D43C /* ReceiveCard.swift in Sources */,
 				844E98882B94A2BE00FFA14C /* SentConfirm.swift in Sources */,
 				846522752B984EEE00B2E804 /* AppleLogo.swift in Sources */,
+				4AB4B71B2B9CC7EC00B626E3 /* LoveShape.swift in Sources */,
 				844E988D2B94B30300FFA14C /* InitNavigation.swift in Sources */,
 				844E98812B949CFE00FFA14C /* Animation.swift in Sources */,
 			);

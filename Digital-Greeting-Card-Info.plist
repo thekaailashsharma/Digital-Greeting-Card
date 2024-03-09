@@ -5,6 +5,10 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Southam.otf</string>
+		<string>roashce.otf</string>
+		<string>mitchela.ttf</string>
+		<string>noctis.otf</string>
+		<string>longline.ttf</string>
 	</array>
 </dict>
 </plist>
