@@ -17,6 +17,7 @@ struct AppleLogo: View {
     @State var endAngle: Double = -190
     @State var disapper: Bool = false
     @State var appleTextVisiblity: Bool = false
+    @State var ShakeDevice: Bool = false
     
     var body: some View {
 //        Arc(
@@ -28,8 +29,11 @@ struct AppleLogo: View {
 //        )
         
         ZStack {
+            
             LinearGradient(colors: [.black, .black], startPoint: .top, endPoint: .bottom)
                 .edgesIgnoringSafeArea(.all)
+            
+           
             if endAngle != 180 {
                 MKSymbolShape(systemName: "applelogo")
                     .stroke(
@@ -70,6 +74,12 @@ struct AppleLogo: View {
                 
                 LinearGradient(colors: [.orange, .pink, .red], startPoint: .top, endPoint: .bottom)
                     .blendMode(.color)
+                    .overlay {
+                        Text("Shake the device to start Animation")
+                            .font(.largeTitle)
+                            .foregroundStyle(.white)
+                            .opacity(ShakeDevice ? 0 : 1)
+                    }
             }
            
             VStack(spacing: 0) {
@@ -114,51 +124,58 @@ struct AppleLogo: View {
             
 
         }
-        .onAppear {
-            dashEffect = 50
-
-            //            withAnimation(.interactiveSpring(
-            //                response: 1,
-            //                dampingFraction: 0.5,
-            //                blendDuration: 6
-            //            ).speed(0.5)) {
-            //                rotation = 360
-            //            }
-            withAnimation(.linear(duration: 6).speed(0.5)) {
-                rotation = 360
-
-
-                DispatchQueue.main.asyncAfter(deadline: .now() + 12) {
-                    withAnimation(
-                        .interactiveSpring(
-                            response: 2,
-                            dampingFraction: 0.5,
-                            blendDuration: 0.5
-                        ).speed(0.8)) {
-                            appleRotation = 160
-                            appleTextRotation = 20
-                            appleTextVisiblity.toggle()
-
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                                withAnimation(
-                                    .interactiveSpring(
-                                        response: 2,
-                                        dampingFraction: 0.25,
-                                        blendDuration: 2
-                                    ).speed(0.8)) {
-                                        appleRotation = 180
-                                        appleTextRotation = 0
-                                    }
-                            }
-                            
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                                withAnimation(Animation.linear(duration: 2)) {
-                                    self.endAngle = 190
-                                    self.disapper.toggle()
+        .onShake {
+           
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                withAnimation {
+                    ShakeDevice = true
+                }
+                print("Shaked")
+                dashEffect = 50
+                
+                //            withAnimation(.interactiveSpring(
+                //                response: 1,
+                //                dampingFraction: 0.5,
+                //                blendDuration: 6
+                //            ).speed(0.5)) {
+                //                rotation = 360
+                //            }
+                withAnimation(.linear(duration: 6).speed(0.5)) {
+                    rotation = 360
+                    
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 12) {
+                        withAnimation(
+                            .interactiveSpring(
+                                response: 2,
+                                dampingFraction: 0.5,
+                                blendDuration: 0.5
+                            ).speed(0.8)) {
+                                appleRotation = 160
+                                appleTextRotation = 20
+                                appleTextVisiblity.toggle()
+                                
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                                    withAnimation(
+                                        .interactiveSpring(
+                                            response: 2,
+                                            dampingFraction: 0.25,
+                                            blendDuration: 2
+                                        ).speed(0.8)) {
+                                            appleRotation = 180
+                                            appleTextRotation = 0
+                                        }
                                 }
+                                
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                    withAnimation(Animation.linear(duration: 2)) {
+                                        self.endAngle = 190
+                                        self.disapper.toggle()
+                                    }
+                                }
+                                
                             }
-                            
-                        }
+                    }
                 }
             }
 

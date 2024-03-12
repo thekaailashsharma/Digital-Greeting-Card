@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A5FB1922B9F3B5F0095AB44 /* LockArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5FB1912B9F3B5F0095AB44 /* LockArrow.swift */; };
+		4A6D1FD42BA098E70017C3D2 /* ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D1FD32BA098E70017C3D2 /* ShakeGesture.swift */; };
 		4A7818622B9A2D8F0036B007 /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7818612B9A2D8F0036B007 /* WatchApp.swift */; };
 		4A9C75A12B9ADB9D00875F78 /* Southam.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C75A02B9ADB9D00875F78 /* Southam.otf */; };
 		4AB4B7112B9CA0DE00B626E3 /* PhaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4B7102B9CA0DE00B626E3 /* PhaseAnimator.swift */; };
@@ -15,6 +17,7 @@
 		4AB4B7172B9CC5B800B626E3 /* noctis.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4B7162B9CC5B800B626E3 /* noctis.otf */; };
 		4AB4B7192B9CC69A00B626E3 /* longline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4B7182B9CC69A00B626E3 /* longline.ttf */; };
 		4AB4B71B2B9CC7EC00B626E3 /* LoveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4B71A2B9CC7EC00B626E3 /* LoveShape.swift */; };
+		4AD0735D2B9E01DF00D36353 /* WifiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0735C2B9E01DF00D36353 /* WifiView.swift */; };
 		4ADA10F52B9ABAA60054D43C /* ReceiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */; };
 		4AF637EC2B9B5A1300FF12AA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF637EB2B9B5A1300FF12AA /* HomeScreen.swift */; };
 		844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E98692B9480B400FFA14C /* Digital_Greeting_CardApp.swift */; };
@@ -38,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A5FB1912B9F3B5F0095AB44 /* LockArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockArrow.swift; sourceTree = "<group>"; };
+		4A6D1FD32BA098E70017C3D2 /* ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGesture.swift; sourceTree = "<group>"; };
 		4A7818612B9A2D8F0036B007 /* WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
 		4A9C75A02B9ADB9D00875F78 /* Southam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Southam.otf; sourceTree = "<group>"; };
 		4A9C75A22B9ADBF500875F78 /* Digital-Greeting-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Digital-Greeting-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -47,6 +52,7 @@
 		4AB4B7162B9CC5B800B626E3 /* noctis.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = noctis.otf; sourceTree = "<group>"; };
 		4AB4B7182B9CC69A00B626E3 /* longline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = longline.ttf; sourceTree = "<group>"; };
 		4AB4B71A2B9CC7EC00B626E3 /* LoveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveShape.swift; sourceTree = "<group>"; };
+		4AD0735C2B9E01DF00D36353 /* WifiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiView.swift; sourceTree = "<group>"; };
 		4ADA10F42B9ABAA60054D43C /* ReceiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveCard.swift; sourceTree = "<group>"; };
 		4AF637EB2B9B5A1300FF12AA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		844E98662B9480B400FFA14C /* Digital Greeting Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Greeting Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A6D1FD22BA098D30017C3D2 /* ShakeGesture */ = {
+			isa = PBXGroup;
+			children = (
+				4A6D1FD32BA098E70017C3D2 /* ShakeGesture.swift */,
+			);
+			path = ShakeGesture;
+			sourceTree = "<group>";
+		};
 		4A7818602B9A2D750036B007 /* watch-app */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +110,15 @@
 				4AB4B71A2B9CC7EC00B626E3 /* LoveShape.swift */,
 			);
 			path = "Phase Animator";
+			sourceTree = "<group>";
+		};
+		4AD0735B2B9E01B200D36353 /* Microanimations */ = {
+			isa = PBXGroup;
+			children = (
+				4AD0735C2B9E01DF00D36353 /* WifiView.swift */,
+				4A5FB1912B9F3B5F0095AB44 /* LockArrow.swift */,
+			);
+			path = Microanimations;
 			sourceTree = "<group>";
 		};
 		844E985D2B9480B400FFA14C = {
@@ -122,6 +145,8 @@
 		844E98682B9480B400FFA14C /* Digital Greeting Card */ = {
 			isa = PBXGroup;
 			children = (
+				4A6D1FD22BA098D30017C3D2 /* ShakeGesture */,
+				4AD0735B2B9E01B200D36353 /* Microanimations */,
 				4AB4B70F2B9CA0C700B626E3 /* Phase Animator */,
 				4A9C75A22B9ADBF500875F78 /* Digital-Greeting-Card-Info.plist */,
 				4A7818602B9A2D750036B007 /* watch-app */,
@@ -289,10 +314,12 @@
 			files = (
 				844E986C2B9480B400FFA14C /* ContentView.swift in Sources */,
 				84997FD12B965C79001C2C36 /* SlackAnimation.swift in Sources */,
+				4A6D1FD42BA098E70017C3D2 /* ShakeGesture.swift in Sources */,
 				845FCB9A2B94EDF50039493B /* PeelEffect.swift in Sources */,
 				4A7818622B9A2D8F0036B007 /* WatchApp.swift in Sources */,
 				4AF637EC2B9B5A1300FF12AA /* HomeScreen.swift in Sources */,
 				844E98862B94A25200FFA14C /* PostCard.swift in Sources */,
+				4A5FB1922B9F3B5F0095AB44 /* LockArrow.swift in Sources */,
 				844E988A2B94AD1800FFA14C /* CreateWish.swift in Sources */,
 				4AB4B7112B9CA0DE00B626E3 /* PhaseAnimator.swift in Sources */,
 				844E986A2B9480B400FFA14C /* Digital_Greeting_CardApp.swift in Sources */,
@@ -304,6 +331,7 @@
 				846522752B984EEE00B2E804 /* AppleLogo.swift in Sources */,
 				4AB4B71B2B9CC7EC00B626E3 /* LoveShape.swift in Sources */,
 				844E988D2B94B30300FFA14C /* InitNavigation.swift in Sources */,
+				4AD0735D2B9E01DF00D36353 /* WifiView.swift in Sources */,
 				844E98812B949CFE00FFA14C /* Animation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
